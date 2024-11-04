@@ -1,0 +1,5 @@
+fastapi==0.115.4
+pydantic==2.9.2
+uvicorn==0.32.0
+python-multipart==
+tensorflow==2.7.0

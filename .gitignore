@@ -1,0 +1,17 @@
+# Folder bytecode Python
+__pycache__/
+*.pyc
+
+# Folder tempat file yang diupload
+uploaded_files/
+
+# Virtual environment (misalnya, jika kamu menggunakan venv)
+env/
+venv/
+
+# File konfigurasi IDE/editor (misalnya, jika menggunakan VS Code)
+.vscode/
+.idea/
+
+# File sementara
+*.log
