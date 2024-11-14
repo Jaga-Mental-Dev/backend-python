@@ -15,3 +15,4 @@ venv/
 
 # File sementara
 *.log
+.env
