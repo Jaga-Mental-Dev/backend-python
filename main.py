@@ -11,7 +11,7 @@ import os
 
 app = FastAPI()
 
-app.include_router(image_classification.router)
+# app.include_router(image_classification.router)
 app.include_router(text_classification.router)
 
 
