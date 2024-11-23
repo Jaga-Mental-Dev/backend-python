@@ -1,6 +1,7 @@
 from fastapi.responses import HTMLResponse
 from app.api import image_routes, text_routes
 from fastapi import FastAPI
+from fastapi.middleware.cors import CORSMiddleware
 import numpy as np
 
 from fastapi.responses import JSONResponse
@@ -13,6 +14,15 @@ app = FastAPI(
     description="API untuk klasifikasi teks dan gambar",
     version="1.0.0",
 )
+
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=["*"],
+    allow_credentials=True,
+    allow_methods=["*"],
+    allow_headers=["*"],
+)
+
 
 
 app.include_router(text_routes.router, prefix="/text", tags=["Text Classification"])

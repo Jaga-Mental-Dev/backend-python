@@ -8,6 +8,7 @@ ai_models/
 # Virtual environment (misalnya, jika kamu menggunakan venv)
 env/
 venv/
+dev_env/
 .venv
 
 # File konfigurasi IDE/editor (misalnya, jika menggunakan VS Code)
