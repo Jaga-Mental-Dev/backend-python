@@ -6,7 +6,7 @@ from app.utils.model_utils import preprocess_text
 
 def load_model_with_custom_objects():
     try:
-        model_path = os.path.join(os.path.dirname(__file__), "../data_model/text_model.h5")
+        model_path = os.path.join(os.path.dirname(__file__), "../data_model/textv2_model.h5")
         custom_objects = {
             'LSTM': lambda **kwargs: tf.keras.layers.LSTM(
                 **{k: v for k, v in kwargs.items() if k != 'time_major'}
@@ -22,7 +22,7 @@ try:
 except Exception as e:
     raise RuntimeError("Text model loading failed: " + str(e))
 
-LABELS = ['senang', 'sedih', 'love', 'netral', 'marah']
+LABELS = ['senang', 'sedih', 'netral', 'marah']
 
 def predict_text(text: str):
     try:
