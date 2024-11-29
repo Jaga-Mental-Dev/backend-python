@@ -10,7 +10,7 @@ try:
 except Exception as e:
     raise RuntimeError("face model loading failed: " + str(e))
 
-LABELS = ['marah', 'happy', 'netral', 'sedih']
+LABELS = ['marah', 'senang', 'netral', 'sedih']
 
 def predict_image(file: UploadFile):
 
