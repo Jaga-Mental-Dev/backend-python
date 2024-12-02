@@ -24,7 +24,7 @@ This repository contains the FastAPI server that handles machine learning predic
 - **FastAPI Framework:** High-performance and easy-to-use backend framework.
 - **Integration Ready:** Designed to integrate seamlessly with the Jaga Mental mobile application.
 
-## Tech Stack🛠️
+## Tech Stack🛠
 
 - **Backend Framework:** FastAPI
 - **Machine Learning:** TensorFlow
@@ -66,7 +66,7 @@ This repository contains the FastAPI server that handles machine learning predic
    pip install -r requirements.txt
    ```
 
-## Running the Server▶️
+## Running the Server▶
 
 Start the FastAPI :
 
