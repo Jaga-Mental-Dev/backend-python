@@ -14,31 +14,31 @@ This repository contains the FastAPI server that handles machine learning predic
 - [Contributing](#contributing)
 - [License](#license)
 
-## Project Overview 📖
+## Project Overview📖
 
 **Jaga Mental** is a mental health application aimed at helping Gen Z in Indonesia track and improve their mental well-being. This FastAPI server powers the machine learning prediction functionality, enabling the analysis of user moods based on journaling entries.
 
-## Features ✨
+## Features✨
 
 - **Predict User Emotions:** Use a trained TensorFlow model to predict emotions from text input.
 - **FastAPI Framework:** High-performance and easy-to-use backend framework.
 - **Integration Ready:** Designed to integrate seamlessly with the Jaga Mental mobile application.
 
-## Tech Stack 🛠️
+## Tech Stack🛠️
 
 - **Backend Framework:** FastAPI
 - **Machine Learning:** TensorFlow
 - **Language:** Python 3.11+
 - **Deployment:** Google Cloud Platform (GCP)
 
-## Getting Started  🚀
+## Getting Started🚀
 
-### Prerequisites 📋
+### Prerequisites📋
 
 - Python 3.11 or later
 - `pip` (Python package manager)
 
-### Installation 💾
+### Installation💾
 
 1. Clone the repository:
 
@@ -66,7 +66,7 @@ This repository contains the FastAPI server that handles machine learning predic
    pip install -r requirements.txt
    ```
 
-## Running the Server ▶️
+## Running the Server▶️
 
 Start the FastAPI :
 
@@ -74,7 +74,7 @@ Start the FastAPI :
   python run.py
  ```
 
-## API Endpoints 🔗
+## API Endpoints🔗
 
 ### Get Emotion from Image
 
@@ -166,9 +166,9 @@ curl -X POST http://127.0.0.1:8000/text/api/feedback/ \
 }
 ```
 
-## Contributing 🤝
+## Contributing🤝
 Contributions are welcome! Please feel free to submit a pull request or open an issue for suggestions and improvements.
 
-## License 📜
+## License📜
 Proyek ini menggunakan lisensi MIT. Silakan lihat [LICENSE](./LICENSE) untuk informasi lebih lanjut.
 
