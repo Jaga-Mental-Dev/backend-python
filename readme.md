@@ -52,15 +52,7 @@ This repository contains the FastAPI server that handles machine learning predic
    python -m venv venv
    source venv/bin/activate  # On Windows, use `venv\Scripts\activate`
    ```
-
-4. Create .env
-
-   ```.env
-   PORT=
-   GROQ_API_KEY=
-   ```
-
-5. Install dependencies
+4. Install dependencies
 
    ```bash
    pip install -r requirements.txt
